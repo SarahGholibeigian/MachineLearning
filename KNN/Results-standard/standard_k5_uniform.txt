@@ -1,0 +1,32 @@
+Confusion_matrix_train for k=5, weights=uniform: [[141631      0      0]
+ [     0 148781      0]
+ [     3      0 251249]]
+Confusion_matrix_test for k=5, weights=uniform: [[35537     0     0]
+ [    0 37409     0]
+ [    0     0 62470]]
+Classification_report_train for k=5, weights=uniform:               precision    recall  f1-score   support
+
+      elnino       1.00      1.00      1.00    141631
+      lanina       1.00      1.00      1.00    148781
+      normal       1.00      1.00      1.00    251252
+
+    accuracy                           1.00    541664
+   macro avg       1.00      1.00      1.00    541664
+weighted avg       1.00      1.00      1.00    541664
+
+Classification_report_test for k=5, weights=uniform:               precision    recall  f1-score   support
+
+      elnino       1.00      1.00      1.00     35537
+      lanina       1.00      1.00      1.00     37409
+      normal       1.00      1.00      1.00     62470
+
+    accuracy                           1.00    135416
+   macro avg       1.00      1.00      1.00    135416
+weighted avg       1.00      1.00      1.00    135416
+
+Accuracy_score_train for k=5, weights=uniform: 0.9999944615111951
+Accuracy_score_test for k=5, weights=uniform: 1.0
+Precision_score_train for k=5, weights=uniform: 0.9999944616285078
+Precision_score_test for k=5, weights=uniform: 1.0
+F1_score_train for k=5, weights=uniform: 0.9999944615239907
+F1_score_test for k=5, weights=uniform: 1.0

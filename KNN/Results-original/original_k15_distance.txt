@@ -1,0 +1,32 @@
+Confusion_matrix_train for k=15, weights=distance: [[141694      0      0]
+ [     0 148951      0]
+ [     0      0 251019]]
+Confusion_matrix_test for k=15, weights=distance: [[15113  4421 15940]
+ [ 4371 16071 16797]
+ [ 5705  6312 50686]]
+Classification_report_train for k=15, weights=distance:               precision    recall  f1-score   support
+
+      elnino       1.00      1.00      1.00    141694
+      lanina       1.00      1.00      1.00    148951
+      normal       1.00      1.00      1.00    251019
+
+    accuracy                           1.00    541664
+   macro avg       1.00      1.00      1.00    541664
+weighted avg       1.00      1.00      1.00    541664
+
+Classification_report_test for k=15, weights=distance:               precision    recall  f1-score   support
+
+      elnino       0.60      0.43      0.50     35474
+      lanina       0.60      0.43      0.50     37239
+      normal       0.61      0.81      0.69     62703
+
+    accuracy                           0.60    135416
+   macro avg       0.60      0.56      0.56    135416
+weighted avg       0.60      0.60      0.59    135416
+
+Accuracy_score_train for k=15, weights=distance: 1.0
+Accuracy_score_test for k=15, weights=distance: 0.6045814379393868
+Precision_score_train for k=15, weights=distance: 1.0
+Precision_score_test for k=15, weights=distance: 0.6033879107000246
+F1_score_train for k=15, weights=distance: 1.0
+F1_score_test for k=15, weights=distance: 0.5897665716273911
